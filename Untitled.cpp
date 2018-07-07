@@ -74,5 +74,7 @@ int main(int argc, char *argv[]) {
 	std::cout << "Printing META_DATA AF " <<std::endl;
 	DATA[0]->print_meta_data();
 	
-	//delete DATA;
+	delete DATA[0];
+	delete DATA[1];
+	delete DATA[2];
 }
